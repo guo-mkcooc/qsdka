@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <remote fetch="https://gitlab.com/" name="pes" review="gitlab.com"/>
+  <remote fetch="https://gitlab.com/" name="origin" review="gitlab.com"/>
   <default remote="caf" revision="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="d4657811a97c9ba89254c40c2f7676ff8023f29c" upstream="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/boot/lk-af" path="qsdk/qca/src/lk-af" revision="c0edda6b4c2de30d56a34f335e93a8e2a5d5c49d" upstream="NHSS.QSDK.10.0"/>
@@ -39,8 +39,8 @@
   <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="b432be5e5cc1e5f4c4a5928cd6cfeb3b2eaf63df" upstream="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="c2b72fc8391ebd0d671d2b91ab92e8196d3b1460" upstream="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="553567fa443c7f3c56b5322b1617f938e667a61f" upstream="NHSS.QSDK.10.0"/>
-  <project name="tenbay4grouter/lede17/lede-source" path="qsdk" remote="pes" revision="610ab5a1ed5a93c34f6da3d7a3c2371f2249acd8" upstream="release-operator-v1.0-MG"/>
-  <project name="tenbay4grouter/lede17/4GRouter-puppies" path="qsdk/qca/feeds/puppies" remote="pes" revision="8cba6bc30b27a84f2fb4d4b9b730bdfce828bf04" upstream="release-operator-v1.0-XINKE"/>
+  <project name="tenbay4grouter/lede17/lede-source" path="qsdk" remote="origin" revision="610ab5a1ed5a93c34f6da3d7a3c2371f2249acd8" upstream="release-operator-v1.0-MG"/>
+  <project name="tenbay4grouter/lede17/4GRouter-puppies" path="qsdk/qca/feeds/puppies" remote="origin" revision="8cba6bc30b27a84f2fb4d4b9b730bdfce828bf04" upstream="release-operator-v1.0-XINKE"/>
   <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="9ee78cf3d57273036c545c44b6de821167a4f35f" upstream="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/system/feeds/wigig-utils" path="qsdk/qca/feeds/wigig-utils-oss" revision="4c977f5cb185524115238cd3aa10b3b2d0cd5dcf" upstream="NHSS.QSDK.10.0"/>
   <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="f551927158ab92fa419efc9da5e92b2ef11d825e" upstream="NHSS.QSDK.10.0"/>

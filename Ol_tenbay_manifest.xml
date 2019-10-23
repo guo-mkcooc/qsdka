@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://gitlab.com/" name="origin" review="gitlab.com"/>
+  <default remote="caf" revision="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="8035a8ddefdcc8a2f06c96b2a82618ca6ce6406d" upstream="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qsdk/qca/src/qca-edma" revision="16e165226f490f0f405e8b90043b65e497581d39" upstream="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="cea8c55da026effda0dca3707ef259a4ecc05442" upstream="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="c2b72fc8391ebd0d671d2b91ab92e8196d3b1460" upstream="NHSS.QSDK.10.0"/>
+  <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="553567fa443c7f3c56b5322b1617f938e667a61f" upstream="NHSS.QSDK.10.0"/>
+  <project name="tenbay4grouter/lede17/lede-source" path="qsdk" remote="origin" revision="610ab5a1ed5a93c34f6da3d7a3c2371f2249acd8" upstream="release-operator-v1.0-MG"/>
+  <project name="tenbay4grouter/lede17/4GRouter-puppies" path="qsdk/qca/feeds/puppies" remote="origin" revision="8cba6bc30b27a84f2fb4d4b9b730bdfce828bf04" upstream="release-operator-v1.0-XINKE"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/dataservices" path="qsdk/qca/src/data-oss" revision="e53d27250a4b503389bdb67d4a8917781eabcbba" upstream="NHSS.QSDK.10.0"/>
+</manifest>
